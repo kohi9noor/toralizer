@@ -1,0 +1,17 @@
+
+- To declare a pointer you use the * symbol before the pointer name.
+int *ptr;  // ptr is a pointer to an integer
+
+int val = 10;
+
+-- To store an address in a pointer use the address-of operator &
+
+ptr = &var;
+
+// Example with array
+
+int arr[] = {10, 20, 30};
+int *ptr = arr;   // ptr points to the first element of arr
+printf("%d", *ptr);  // Output: 10
+ptr++;              // Now points to the second element
+printf("%d", *ptr);  // Output: 20
